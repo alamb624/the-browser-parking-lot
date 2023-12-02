@@ -1,6 +1,8 @@
 import React from 'react';
 import ParkingLotItem from './ParkingLotItem';
 
+import './ParkingLot.css';
+
 export default function ParkingLotList({ parkingLotItems}) {
 
     let ParkingLotItemsJsx = parkingLotItems.map( item => 
@@ -8,9 +10,8 @@ export default function ParkingLotList({ parkingLotItems}) {
     );
     
     return(
-        <div>
-            ParkingLotList
+        <section className="parking-lot-list-container">
             { ParkingLotItemsJsx }
-        </div>
+        </section>
     );
 }
