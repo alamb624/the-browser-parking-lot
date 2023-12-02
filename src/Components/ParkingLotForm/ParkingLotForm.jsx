@@ -1,6 +1,8 @@
 import React from 'react';
 import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
 
+import './ParkingLotForm.css'
+
 
 export default function ParkingLotForm(){
     return (
@@ -46,7 +48,7 @@ export default function ParkingLotForm(){
                     id="prio-high"
                 />
                 {` `}
-                <Label for="prio-high">
+                <Label for="prio-high" className="me-3">
                     High
                 </Label>
                 <Input
@@ -56,7 +58,7 @@ export default function ParkingLotForm(){
                     id="prio-medium"
                 />
                 {` `}
-                <Label for="prio-medium">
+                <Label for="prio-medium" className="me-3">
                     Medium
                 </Label>
                 <Input
@@ -66,13 +68,16 @@ export default function ParkingLotForm(){
                     id="prio-low"
                 />
                 {` `}
-                <Label for="prio-low">
+                <Label for="prio-low" classname="me-3">
                     Low
                 </Label>
             </FormGroup>
-            <Button type="submit" className="submit">
-                Submit
+            <Button type="submit" className="button" >
+              Submit
             </Button>
         </Form>
     );
+
+
+
 }
