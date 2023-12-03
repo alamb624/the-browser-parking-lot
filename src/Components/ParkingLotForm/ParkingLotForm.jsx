@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
+import { Form, Button, FormGroup, Label, Input, Image } from 'reactstrap';
 
 import './ParkingLotForm.css'
 
@@ -89,7 +89,7 @@ export default function ParkingLotForm({ addItem }){
                 required
                 />
             </FormGroup>
-            <FormGroup className="parking-lot-row d-flex flex-wrap">
+            <FormGroup className="parking-lot-row d-center flex-wrap">
                 <Input
                     name="radio-priority"
                     type="radio"
@@ -123,7 +123,7 @@ export default function ParkingLotForm({ addItem }){
                     onChange={handlePriorityChange}
                 />
                 {` `}
-                <Label for="prio-low" classname="me-3">
+                <Label for="prio-low" className="me-3">
                     Low
                 </Label>
             </FormGroup>
