@@ -1,4 +1,4 @@
-Hosting Link:
+Hosting Link: https://alamb624.github.io/the-browser-parking-lot/
 
 # Browser Parking Lot
 
