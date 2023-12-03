@@ -40,6 +40,11 @@ export default function ParkingLotForm({ addItem }){
         const formattedDate = `${M}/${d}/${y}`;
 
         addItem(formattedDate, link, description, priority);
+        
+        setDate('');
+        setLink('');
+        setDescription('');
+        setPriority(PRIORITIES.Medium);
     }
 
     return (
@@ -84,7 +89,7 @@ export default function ParkingLotForm({ addItem }){
                 required
                 />
             </FormGroup>
-            <FormGroup className="parking-lot-row">
+            <FormGroup className="parking-lot-row d-flex flex-wrap">
                 <Input
                     name="radio-priority"
                     type="radio"
