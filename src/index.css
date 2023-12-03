@@ -1,14 +1,15 @@
 header {
   padding: 5rem;
-  font-family: 'Permanent Marker';
+  font-family: 'Playpen Sans';
   font-size: 32px;
 }
 
 body {
   color: whitesmoke;
   background-image: url(./images/parking.png);
+  background-size:cover;
   margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Permanent Marker';
+  font-family: -apple-system, BlinkMacSystemFont, 'Playpen Sans';
   font-size: 30px;
 }
 
