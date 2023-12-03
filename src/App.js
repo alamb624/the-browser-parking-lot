@@ -9,7 +9,7 @@ function App() {
     let [parkingLotItems, setParkingLotItems] = useState([]);
 
     function initializePageState() {
-      let savedState = LocalStorage.getItem("items");
+      let savedState = localStorage.getItem("items");
       if (typeof savedState === "string") {
           let parsedState = JSON.parse(savedState);
           setParkingLotItems(parsedState);
