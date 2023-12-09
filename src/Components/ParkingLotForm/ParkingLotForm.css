@@ -5,11 +5,12 @@
     padding: 2rem;
     text-align: left;
     min-width: 250px;
-    max-width: 600px;
     box-sizing: content-box;
     font-size: 30px;
 } 
 
 .button {
     font-size: 30px;
+    background-color: goldenrod;
+    color:black;
 }

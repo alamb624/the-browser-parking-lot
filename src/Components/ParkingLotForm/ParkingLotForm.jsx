@@ -50,7 +50,7 @@ export default function ParkingLotForm({ addItem }){
     return (
         <Form data-bs-theme="dark" className="parking-lot-form"
     onSubmit={handleSubmit}>
-            <FormGroup className="parking-lot-row">
+            <FormGroup className="parking-lot-row col-12 col-md-8 col-xl-6 col-xxl-4 offset-md-2 offset-xl-3 offset-xxl-4">
                 <Label for="link-date">
                 Date
                 </Label>
@@ -63,7 +63,7 @@ export default function ParkingLotForm({ addItem }){
                 required
                 />
             </FormGroup>
-            <FormGroup className="parking-lot-row">
+            <FormGroup className="parking-lot-row col-12 col-md-8 col-xl-6 col-xxl-4 offset-md-2 offset-xl-3 offset-xxl-4">
                 <Label for="link-url">
                     Link
                 </Label>
@@ -76,7 +76,7 @@ export default function ParkingLotForm({ addItem }){
                 required
                 />
             </FormGroup>
-            <FormGroup className="parking-lot-row">
+            <FormGroup className="parking-lot-row col-12 col-md-8 col-xl-6 col-xxl-4 offset-md-2 offset-xl-3 offset-xxl-4">
                 <Label for="link-description">
                     Description
                 </Label>
@@ -89,7 +89,7 @@ export default function ParkingLotForm({ addItem }){
                 required
                 />
             </FormGroup>
-            <FormGroup className="parking-lot-row d-flex flex-wrap">
+            <FormGroup className="parking-lot-row d-flex flex-wrap col-12 col-md-8 col-xl-6 col-xxl-4 offset-md-2 offset-xl-3 offset-xxl-4">
                 <Input
                     name="radio-priority"
                     type="radio"
@@ -127,7 +127,7 @@ export default function ParkingLotForm({ addItem }){
                     Low
                 </Label>
             </FormGroup>
-            <Button type="submit" className="button" >
+            <Button type="submit" className="button col-12 col-md-8 col-xl-6 col-xxl-4 offset-md-2 offset-xl-3 offset-xxl-4" >
               Submit
             </Button>
         </Form>
