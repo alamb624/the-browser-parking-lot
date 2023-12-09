@@ -17,7 +17,7 @@
 }
 
 .parking-lot-item-anchor:visited {
-    color: rgb(125, 224, 152);
+    color: rgb(34, 184, 74);
 }
 
 .card-header {
@@ -31,4 +31,8 @@
     border: none;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
+}
+
+.description {
+    font-size: 30px;
 }

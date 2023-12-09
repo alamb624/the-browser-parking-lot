@@ -25,7 +25,7 @@ export default function ParkingLotItem({
                 </Button>
             </CardHeader>
             <CardBody>
-                <CardTitle tag="h5">
+                <CardTitle tag="h5" className="description">
                     { description }
                 </CardTitle>
                 <CardText overflow="hidden">

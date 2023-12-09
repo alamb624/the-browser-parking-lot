@@ -54,6 +54,9 @@ function App() {
           parkingLotItems={parkingLotItems}
           deleteItem={deleteItem} />
       </main>
+      <footer>
+        <p> Thanks for parking with us!</p>
+      </footer>
     </div>
   );
 }
